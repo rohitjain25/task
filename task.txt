@@ -166,3 +166,41 @@ Swap:         1.7Gi          0B       1.7Gi
 8.0K	/home/rohit/.local/share
 12K	/home/rohit/.local
 316K	/home/rohit
+
+6)Find the inode usage?
+Filesystem                          Inodes IUsed    IFree IUse% Mounted on
+udev                                243426   528   242898    1% /dev
+tmpfs                               254410   813   253597    1% /run
+/dev/mapper/ubuntu--vg-ubuntu--lv   589824 77875   511949   14% /
+tmpfs                               254410     4   254406    1% /dev/shm
+tmpfs                               254410     4   254406    1% /run/lock
+tmpfs                               254410    18   254392    1% /sys/fs/cgroup
+/dev/loop0                           10809 10809        0  100% /snap/core18/1944
+/dev/sda2                            65536   312    65224    1% /boot
+/dev/loop1                             474   474        0  100% /snap/snapd/11107
+/dev/mapper/vggroup-new--disk     15722496     3 15722493    1% /data
+/dev/loop2                           10817 10817        0  100% /snap/core18/1988
+/dev/loop3                            1578  1578        0  100% /snap/lxd/19188
+/dev/loop4                             472   472        0  100% /snap/snapd/10707
+tmpfs                               254410    22   254388    1% /run/user/1000
+
+7.)Find the ulimit of a user?
+core file size          (blocks, -c) unlimited
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 7606
+max locked memory       (kbytes, -l) 65536
+max memory size         (kbytes, -m) unlimited
+open files                      (-n) 1048576
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) unlimited
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 7606
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+
+8.)Find the ulimit of the process?
+unlimited
