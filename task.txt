@@ -120,3 +120,8 @@ root        1166  0.0  0.0      0     0 ?        I    15:24   0:00 [kworker/0:2-
 root        1318  0.0  0.0      0     0 ?        I    15:39   0:00 [kworker/u4:2-events_power_efficient]
 rohit       1328  0.0  0.1   8892  3336 tty1     R+   15:45   0:00 ps aux
 
+2.)Find the user currently logged in ?
+rohit    tty1         2021-03-06 14:43
+
+3.)Find the uptime of the machine ?
+16:01:41 up  1:19,  1 user,  load average: 0.00, 0.00, 0.00
