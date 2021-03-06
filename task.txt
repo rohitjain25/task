@@ -272,7 +272,6 @@ MiB Swap:   1757.0 total,   1757.0 free,      0.0 used.   1686.0 avail Mem
     393 root      19  -1   51688  14424  13296 S   0.0   0.7   0:00.16 systemd-journal
 
 11)Find the top 5 processes by cpu usage?
-
 USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
 root           1  0.0  0.5 102376 11800 ?        Ss   14:42   0:01 /sbin/init maybe-ubiquity
 root           2  0.0  0.0      0     0 ?        S    14:42   0:00 [kthreadd]
