@@ -55,7 +55,7 @@ Tasks for Week #1
 >```rohit@server:~ps aux | grep 'z'```
 
 20.)Find the eniviornment variables set on machine?
->```rohit@server:~printenv```\
+>```rohit@server:~printenv```
 
 21.)Display processes started by a user?
 >```rohit@server:~htop -u rohit```
