@@ -492,3 +492,42 @@ Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
 └── test
 
 1 directory
+
+26)Display number of files in the directory?
+3
+
+27)Display number of lines in a file?
+499 task.txt
+
+28)List the oldest and newest file in a directory ? 
+total 48
+-rw-rw-r-- 1 rohit rohit   216 Mar  7 15:28 task.cc
+-rw-rw-r-- 1 rohit rohit   426 Mar  7 08:03 p-io-adv
+
+29)Display the OS and kernel information ? 
+Linux version 5.4.0-66-generic (buildd@lgw01-amd64-039) (gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04)) #74-Ubuntu SMP Wed Jan 27 22:54:38 UTC 2021
+
+30)Display the sizing (cpu cores, memory, and disk) of the machine?
+  *-core
+       description: Motherboard
+       product: VirtualBox
+       vendor: Oracle Corporation
+       physical id: 0
+       version: 1.2
+       serial: 0
+ *-memory
+          description: System memory
+          physical id: 1
+          size: 2GiB
+ *-disk
+             description: ATA Disk
+             product: VBOX HARDDISK
+             physical id: 0.0.0
+             bus info: scsi@5:0.0.0
+             logical name: /dev/sdd
+             version: 1.0
+             serial: 1RKsba-Mvv0-6AeI-9WCa-HWpt-GJs5-ZnRDkS
+             size: 10GiB
+             capacity: 10GiB
+             capabilities: lvm2
+             configuration: ansiversion=5 logicalsectorsize=512 sectorsize=512
