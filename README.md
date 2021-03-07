@@ -15,6 +15,7 @@ Tasks for Week #1
 7.)Find the ulimit of a user?\
 ```rohit@server:~ulimit -Ha```\
 8.)Find the ulimit of the process?\
-```rohit@server:~ulimit -n```
-
+```rohit@server:~ulimit -n```\
+9.)Find the file descriptors used by a process?\
+```rohit@server:~lsof -a -p 823```
 
