@@ -278,3 +278,131 @@ root           2  0.0  0.0      0     0 ?        S    14:42   0:00 [kthreadd]
 root           3  0.0  0.0      0     0 ?        I<   14:42   0:00 [rcu_gp]
 root           4  0.0  0.0      0     0 ?        I<   14:42   0:00 [rcu_par_gp]
 root           6  0.0  0.0      0     0 ?        I<   14:42   0:00 [kworker/0:0H-kblockd]
+
+12)Find the top 5 processes by network usage?
+Active Internet connections (w/o servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+Active UNIX domain sockets (w/o servers)
+Proto RefCnt Flags       Type       State         I-Node   PID/Program name     Path
+unix  2      [ ]         DGRAM                    30019    1135/systemd         /run/user/1000/systemd/notify
+unix  3      [ ]         DGRAM                    15785    1/init               /run/systemd/notify
+unix  2      [ ]         DGRAM                    15802    1/init               /run/systemd/journal/syslog
+unix  8      [ ]         DGRAM                    15810    1/init               /run/systemd/journal/dev-log
+unix  9      [ ]         DGRAM                    15814    1/init               /run/systemd/journal/socket
+unix  3      [ ]         STREAM     CONNECTED     26725    1/init               /run/systemd/journal/stdout
+unix  3      [ ]         DGRAM                    25817    707/systemd-timesyn  
+unix  3      [ ]         DGRAM                    25816    707/systemd-timesyn  
+unix  3      [ ]         DGRAM                    15786    1/init               
+unix  2      [ ]         DGRAM                    25261    749/systemd-resolve  
+unix  3      [ ]         STREAM     CONNECTED     26987    771/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     27056    771/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     27158    1/init               /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    16149    393/systemd-journal  
+unix  3      [ ]         DGRAM                    15787    1/init               
+unix  3      [ ]         STREAM     CONNECTED     33392    1610/fwupd           
+unix  3      [ ]         STREAM     CONNECTED     26729    1/init               /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     27070    785/python3          
+unix  3      [ ]         STREAM     CONNECTED     33381    1610/fwupd           
+unix  3      [ ]         STREAM     CONNECTED     26247    707/systemd-timesyn  
+unix  3      [ ]         STREAM     CONNECTED     26628    771/dbus-daemon      
+unix  3      [ ]         STREAM     CONNECTED     26748    1/init               /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     19326    661/multipathd       
+unix  3      [ ]         STREAM     CONNECTED     33393    771/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     27727    784/irqbalance       
+unix  2      [ ]         DGRAM                    25812    707/systemd-timesyn  
+unix  3      [ ]         STREAM     CONNECTED     27071    785/python3          
+unix  3      [ ]         STREAM     CONNECTED     28267    794/systemd-logind   
+unix  3      [ ]         STREAM     CONNECTED     20260    1/init               /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     26630    1/init               /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    26643    767/cron             
+unix  3      [ ]         STREAM     CONNECTED     27157    895/python3          
+unix  3      [ ]         DGRAM                    25815    707/systemd-timesyn  
+unix  3      [ ]         STREAM     CONNECTED     26726    1/init               /run/systemd/journal/stdout
+unix  3      [ ]         DGRAM                    25814    707/systemd-timesyn  
+unix  2      [ ]         DGRAM                    36514    2050/sudo            
+unix  3      [ ]         STREAM     CONNECTED     26724    785/python3          
+unix  3      [ ]         STREAM     CONNECTED     33383    1/init               /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     27055    785/python3          
+unix  3      [ ]         STREAM     CONNECTED     27874    793/snapd            
+unix  3      [ ]         STREAM     CONNECTED     24533    707/systemd-timesyn  
+unix  2      [ ]         DGRAM                    25935    747/systemd-network  
+unix  3      [ ]         STREAM     CONNECTED     24789    1/init               /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     26983    771/dbus-daemon      
+unix  3      [ ]         STREAM     CONNECTED     17787    424/systemd-udevd    
+unix  3      [ ]         STREAM     CONNECTED     27240    771/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     26245    747/systemd-network  
+unix  3      [ ]         STREAM     CONNECTED     26989    771/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     26985    771/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         DGRAM                    25939    747/systemd-network  
+unix  3      [ ]         DGRAM                    25941    747/systemd-network  
+unix  2      [ ]         DGRAM                    26982    771/dbus-daemon      
+unix  3      [ ]         STREAM     CONNECTED     25258    1/init               /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     26077    749/systemd-resolve  
+unix  3      [ ]         DGRAM                    25940    747/systemd-network  
+unix  3      [ ]         STREAM     CONNECTED     17796    1/init               /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     26467    767/cron             
+unix  3      [ ]         STREAM     CONNECTED     29989    1/init               /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     27239    896/polkitd          
+unix  3      [ ]         STREAM     CONNECTED     26392    1/init               
+unix  3      [ ]         STREAM     CONNECTED     26642    1/init               /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     29607    1135/systemd         
+unix  3      [ ]         DGRAM                    25942    747/systemd-network  
+unix  3      [ ]         STREAM     CONNECTED     26984    771/dbus-daemon      
+unix  3      [ ]         STREAM     CONNECTED     25538    761/accounts-daemon  
+unix  3      [ ]         STREAM     CONNECTED     25400    1/init               /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    16340    1/init               
+unix  2      [ ]         DGRAM                    28126    789/rsyslogd         
+unix  3      [ ]         STREAM     CONNECTED     25241    1/init               /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    29616    1140/(sd-pam)        
+unix  3      [ ]         STREAM     CONNECTED     26988    771/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     25239    747/systemd-network  
+unix  3      [ ]         STREAM     CONNECTED     25399    761/accounts-daemon  
+unix  3      [ ]         STREAM     CONNECTED     27068    771/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     30024    771/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         DGRAM                    30021    1135/systemd         
+unix  3      [ ]         STREAM     CONNECTED     27261    771/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     27067    794/systemd-logind   
+unix  3      [ ]         STREAM     CONNECTED     27265    895/python3          
+unix  2      [ ]         DGRAM                    27061    794/systemd-logind   
+unix  3      [ ]         DGRAM                    30020    1135/systemd         
+unix  3      [ ]         STREAM     CONNECTED     26246    749/systemd-resolve  
+unix  3      [ ]         STREAM     CONNECTED     27266    895/python3          
+unix  3      [ ]         STREAM     CONNECTED     26986    771/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     27260    895/python3          
+unix  3      [ ]         DGRAM                    17800    424/systemd-udevd    
+unix  2      [ ]         DGRAM                    30010    1135/systemd         
+unix  3      [ ]         DGRAM                    17799    424/systemd-udevd    
+unix  3      [ ]         STREAM     CONNECTED     30023    1135/systemd         
+unix  2      [ ]         DGRAM                    17797    424/systemd-udevd    
+unix  2      [ ]         DGRAM                    29151    883/login            
+
+14)Find the network Traffic and bandwidth usage of the machine?
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    RX: bytes  packets  errors  dropped overrun mcast   
+    20.7k      246      0       0       0       0       
+    TX: bytes  packets  errors  dropped carrier collsns 
+    20.7k      246      0       0       0       0       
+2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP mode DEFAULT group default qlen 1000
+    link/ether 08:00:27:cb:00:db brd ff:ff:ff:ff:ff:ff
+    RX: bytes  packets  errors  dropped overrun mcast   
+    3.53M      2.90k    0       0       0       0       
+    TX: bytes  packets  errors  dropped carrier collsns 
+    157k       1.97k    0       0       0       0       
+
+16)List files opened by a process?
+COMMAND  PID  USER   FD   TYPE DEVICE SIZE/OFF   NODE NAME
+bash    1145 rohit  cwd    DIR  253,1     4096  10093 /home/rohit/task
+bash    1145 rohit  rtd    DIR  253,1     4096      2 /
+bash    1145 rohit  txt    REG  253,1  1183448    497 /usr/bin/bash
+bash    1145 rohit  mem    REG  253,1    51832   8826 /usr/lib/x86_64-linux-gnu/libnss_files-2.31.so
+bash    1145 rohit  mem    REG  253,1    27002 133058 /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+bash    1145 rohit  mem    REG  253,1  3035952  13562 /usr/lib/locale/locale-archive
+bash    1145 rohit  mem    REG  253,1  2029224   8690 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+bash    1145 rohit  mem    REG  253,1    18816   8708 /usr/lib/x86_64-linux-gnu/libdl-2.31.so
+bash    1145 rohit  mem    REG  253,1   192032   8892 /usr/lib/x86_64-linux-gnu/libtinfo.so.6.2
+bash    1145 rohit  mem    REG  253,1   191472   8659 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+bash    1145 rohit    0u   CHR    4,1      0t0     22 /dev/tty1
+bash    1145 rohit    1u   CHR    4,1      0t0     22 /dev/tty1
+bash    1145 rohit    2u   CHR    4,1      0t0     22 /dev/tty1
+bash    1145 rohit  255u   CHR    4,1      0t0     22 /dev/tty1
