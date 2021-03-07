@@ -51,5 +51,35 @@ Tasks for Week #1
 19.)Find Zombie processes on a machine?\
 ```rohit@server:~ps aux | grep 'z'```
 
+20.)Find the eniviornment variables set on machine?\
+```rohit@server:~printenv```\
+
+21.)Display processes started by a user?\
+```rohit@server:~htop -u rohit```
+
+22.)kill a process\
+```sudo kill -s 15 PID-HERE```
+
+23.)List Open Port\
+```rohit@server:~nmap 127.0.0.1```
+
+24.)Find the permission set for a file\
+```rohit@server:~ls -l task.txt```
+
+25.)list all the directiories inside a directory\
+```rohit@server:~tree```
+
+26.)Display number of files in the directory?\
+```rohit@server:~ ls -1 | wc -l```
+
+27.)Display number of lines in a file?\
+```rohit@server:~wc -l task.txt```
+
+28.)List the oldest and newest file in a directory ?\ 
+```rohit@server:~ls -lt | tail -1
+rohit@server:~ls -ltr | tail -1```
+
+
+
 
 
