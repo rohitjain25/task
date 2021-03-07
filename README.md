@@ -30,7 +30,7 @@ Tasks for Week #1
 ```rohit@server:~ sudo lsof | head```\
 17.)List Processes listening on a specific port?\
 ```rohit@server:~netstat -ltnp | grep -w ':80'```\
-18.)Find the status of the service?\ 
-```service apache2 status```\
+18.)Find the status of the service?\
+```rohit@server:~service apache2 status```\
 
 
