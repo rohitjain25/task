@@ -75,6 +75,8 @@ Tasks for Week #1
 27.)Display number of lines in a file?\
 ```rohit@server:~wc -l task.txt```
 
-28.)List the oldest and newest file in a directory ?\ 
-```rohit@server:~ls -lt | tail -1```\
-```rohit@server:~ls -ltr | tail -1```\
+28.)List the oldest and newest file in a directory ?\
+```rohit@server:~ls -lt | tail -1```
+```rohit@server:~ls -ltr | tail -1```
+
+29.)
