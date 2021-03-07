@@ -1,21 +1,21 @@
 Tasks for Week #1
 =================
 1.)Find the Processes running on a linux machine?\
-```rohit@server:~ps -aux```\
+  ```rohit@server:~ps -aux```\
 2.Find the user currently logged in ?\
-```rohit@server:~ w```\
+  ```rohit@server:~ w```\
 3.)Find the uptime of the machine ?\
-```rohit@server:~uptime```\
+  ```rohit@server:~uptime```\
 4.)Find the ram usage ?\
-```rohit@server:~free```\
+  ```rohit@server:~free```\
 5.)Find the disk usage ?\
-```rohit@server:~du -sh```\
+  ```rohit@server:~du -sh```\
 6.)Find the inode usage?\
-```rohit@server:~df -i```\
+  ```rohit@server:~df -i```\
 7.)Find the ulimit of a user?\
-```rohit@server:~ulimit -Ha```\
+  ```rohit@server:~ulimit -Ha```\
 8.)Find the ulimit of the process?\
-```rohit@server:~ulimit -n```\
+  ```rohit@server:~ulimit -n```\
 9.)Find the file descriptors used by a process?\
-```rohit@server:~lsof -a -p 823```
+  ```rohit@server:~lsof -a -p 823```
 
