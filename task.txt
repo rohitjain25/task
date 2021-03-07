@@ -406,3 +406,72 @@ bash    1145 rohit    0u   CHR    4,1      0t0     22 /dev/tty1
 bash    1145 rohit    1u   CHR    4,1      0t0     22 /dev/tty1
 bash    1145 rohit    2u   CHR    4,1      0t0     22 /dev/tty1
 bash    1145 rohit  255u   CHR    4,1      0t0     22 /dev/tty1
+
+17)List Processes listening on a specific port?
+tcp6       0      0 :::80                   :::*                    LISTEN      822/apache2         
+
+18)Find the status of the service?
+● apache2.service - The Apache HTTP Server
+     Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: enabled)
+     Active: active (running) since Sat 2021-03-06 14:42:36 UTC; 21h ago
+       Docs: https://httpd.apache.org/docs/2.4/
+   Main PID: 822 (apache2)
+      Tasks: 55 (limit: 2281)
+     Memory: 8.1M
+     CGroup: /system.slice/apache2.service
+             ├─822 /usr/sbin/apache2 -k start
+             ├─823 /usr/sbin/apache2 -k start
+             └─824 /usr/sbin/apache2 -k start
+
+Mar 06 14:42:36 server systemd[1]: Starting The Apache HTTP Server...
+Mar 06 14:42:36 server apachectl[783]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Mar 06 14:42:36 server systemd[1]: Started The Apache HTTP Server.
+
+19)Find Zombie processes on a machine?
+rohit       4697  0.0  0.0   6300   736 tty1     S+   11:49   0:00 grep --color=auto z
+
+20)Find the eniviornment variables set on machine?
+SHELL=/bin/bash
+XDG_SEAT=seat0
+PWD=/home/rohit/task
+LOGNAME=rohit
+XDG_SESSION_TYPE=tty
+MOTD_SHOWN=pam
+HOME=/home/rohit
+LANG=en_US.UTF-8
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+INVOCATION_ID=49a1307c7c7b46b1804d943b955c5610
+LESSCLOSE=/usr/bin/lesspipe %s %s
+XDG_SESSION_CLASS=user
+TERM=linux
+LESSOPEN=| /usr/bin/lesspipe %s
+USER=rohit
+SHLVL=1
+XDG_VTNR=1
+XDG_SESSION_ID=1
+XDG_RUNTIME_DIR=/run/user/1000
+JOURNAL_STREAM=9:29060
+XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop
+HUSHLOGIN=FALSE
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+MAIL=/var/mail/rohit
+_=/usr/bin/env
+OLDPWD=/home/rohit
+
+21)Display processes started by a user?
+[?25l[?1c[H[J[mtop - 12:05:22 up  5:44,  1 user,  load average: 0.00, 0.00, 0.00[m[39;49m[m[39;49m[K
+Tasks:[m[39;49m[1m 126 [m[39;49mtotal,[m[39;49m[1m   1 [m[39;49mrunning,[m[39;49m[1m 119 [m[39;49msleeping,[m[39;49m[1m   6 [m[39;49mstopped,[m[39;49m[1m   0 [m[39;49mzombie[m[39;49m[m[39;49m[K
+%Cpu(s):[m[39;49m[1m  0.0 [m[39;49mus,[m[39;49m[1m  3.2 [m[39;49msy,[m[39;49m[1m  0.0 [m[39;49mni,[m[39;49m[1m 96.8 [m[39;49mid,[m[39;49m[1m  0.0 [m[39;49mwa,[m[39;49m[1m  0.0 [m[39;49mhi,[m[39;49m[1m  0.0 [m[39;49msi,[m[39;49m[1m  0.0 [m[39;49mst[m[39;49m[m[39;49m[K
+MiB Mem :[m[39;49m[1m   1987.6 [m[39;49mtotal,[m[39;49m[1m   1351.4 [m[39;49mfree,[m[39;49m[1m    168.8 [m[39;49mused,[m[39;49m[1m    467.4 [m[39;49mbuff/cache[m[39;49m[m[39;49m[K
+MiB Swap:[m[39;49m[1m   1757.0 [m[39;49mtotal,[m[39;49m[1m   1757.0 [m[39;49mfree,[m[39;49m[1m      0.0 [m[39;49mused.[m[39;49m[1m   1656.6 [m[39;49mavail Mem [m[39;49m[m[39;49m[K
+[K
+[7m    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                      [m[39;49m[K
+[m   1135 rohit     20   0   18704   9888   8144 S   0.0   0.5   0:00.05 systemd                      [m[39;49m[K
+[m   1140 rohit     20   0  103600   3668      4 S   0.0   0.2   0:00.00 (sd-pam)                     [m[39;49m[K
+[m   1145 rohit     20   0    8396   5512   3684 S   0.0   0.3   0:00.63 bash 
+
+22.)kill a process
+sudo kill -s 15 PID-HERE
+
+23)List Open Port
