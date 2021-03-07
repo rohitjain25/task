@@ -76,5 +76,5 @@ Tasks for Week #1
 ```rohit@server:~wc -l task.txt```
 
 28.)List the oldest and newest file in a directory ?\ 
-```rohit@server:~ls -lt | tail -1```
+```rohit@server:~ls -lt | tail -1```\
 ```rohit@server:~ls -ltr | tail -1```
