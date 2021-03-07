@@ -10,5 +10,11 @@ Tasks for Week #1
 ```rohit@server:~free```\
 5.)Find the disk usage ?\
 ```rohit@server:~du -sh```\
+6.)Find the inode usage?\
+```rohit@server:~df -i```\
+7.)Find the ulimit of a user?\
+```rohit@server:~ulimit -Ha```\
+8.)Find the ulimit of the process?\
+```rohit@server:~ulimit -n```
 
 
