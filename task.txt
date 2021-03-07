@@ -484,4 +484,11 @@ PORT   STATE SERVICE
 
 Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
 
-24)
+24)Find the permission set for a file
+-rw-rw-r-- 1 rohit rohit 35762 Mar  7 14:42 task.txt
+
+25)list all the directiories inside a directory
+.
+└── test
+
+1 directory
