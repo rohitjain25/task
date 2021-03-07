@@ -79,8 +79,8 @@ Tasks for Week #1
 ```rohit@server:~ls -lt | tail -1```
 ```rohit@server:~ls -ltr | tail -1```
 
-29.)Display the OS and kernel information ?
+29.)Display the OS and kernel information ?\
 ```rohit@server:~hostnamectl```
 
-30.)Display the sizing (cpu cores, memory, and disk) of the machine?
+30.)Display the sizing (cpu cores, memory, and disk) of the machine?\
 ```rohit@server:~lshw```
