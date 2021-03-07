@@ -1,2 +1,2 @@
 TASK WEEK#1\
-USE README.TXT TO VIEW THE COMMANDS OUTPUT
+Use README.TXT to view the command output.
