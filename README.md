@@ -21,7 +21,7 @@ Tasks for Week #1
 10.)Find the 5 processes by memory usage?\
 ```rohit@server:~top -b -o +%MEM | head -n 12```\
 11.)Find the top 5 processes by cpu usage?\
-```rohit@server:~ ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head -6```
+```rohit@server:~ ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head -6```\
 12.)Find the top 5 processes by network usage?\
 ```rohit@server:~netstat | head -9```\
 14.)Find the network Traffic and bandwidth usage of the machine?\
