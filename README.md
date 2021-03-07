@@ -32,5 +32,7 @@ Tasks for Week #1
 ```rohit@server:~netstat -ltnp | grep -w ':80'```\
 18.)Find the status of the service?\
 ```rohit@server:~service apache2 status```\
+19.)Find Zombie processes on a machine?\
+```rohit@server:~ps aux | grep 'z'```\
 
 
